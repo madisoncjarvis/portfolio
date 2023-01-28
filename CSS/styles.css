@@ -1,0 +1,175 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Reenie Beanie', cursive;
+    color: #FFBABA;
+}
+
+h2{
+    font-size: 2.5rem;
+    font-family: 'Fredoka', sans-serif; 
+    color: #FFBABA;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-family: 'Fredoka', sans-serif;
+    color: #678A74;
+}
+
+hr{
+    border-color: #a6a6a6;
+    border-style: dotted none none none;
+    border-width: thick;
+    width: 5%;
+}
+a{
+    color:#678A74;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none
+}
+a:hover{
+    color: #FFBABA;
+}
+   
+   .top-container{
+        background-color: #F3fff8;
+        position:relative;
+        padding-top: 100px;
+    }
+    .middle-container{
+        margin-bottom: 30px;
+    }
+    .bottom-container{
+       background-color: #F3fff8;
+       padding: 30px 0px 10px 0px;
+    }
+    .profile{
+        padding-bottom: 30px;
+    }
+    .profile-image{
+        width: 12%;
+        padding-top: 30px;
+    }
+    .intro{
+        width:40%;
+        line-height: 2;
+        margin: auto;
+    }
+    .skills{
+        padding-top: 20px;
+    }
+    .skill-row-1{
+        width:50%;
+        margin:50px auto 50px auto;
+        text-align: left;
+        line-height: 2;
+    }
+    .skill-row-2{
+        width:50%;
+        margin:50px auto 50px auto;
+        text-align: left;
+        line-height: 2;
+    }
+    .skill-row-3{
+        width:50%;
+        margin:50px auto 50px auto;
+        text-align: left;
+        line-height: 2;
+    }
+    .contact-me{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .btn {
+        -webkit-border-radius: 8;
+        -moz-border-radius: 8;
+        border-radius: 8px;
+        font-family: 'Montserrat', sans-serif;
+        color: #ffffff;
+        font-size: 20px;
+        background: #F7C5A8;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+        position: relative;
+        top: 20px;
+    }
+    .btn:hover {
+        background: FFBABA;
+        text-decoration: none;
+      }
+
+    .copyright{
+        font-size: .75rem;
+        color:#a6a6a6;
+        padding: 20px 0px;
+    }
+    .beach{
+        width: 100%;
+        object-fit: contain;
+    }
+
+.bottom-cloud{ 
+    position:absolute;
+    left: 150px;
+    bottom: 25%;
+}
+.color-image{
+    width: 20%;
+    float: right;
+    margin-left: 30px;
+}
+.creative-image{
+width: 20%;
+float: left;
+margin-right: 30px;
+}
+.develop-image{
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+    }
+.top-cloud{
+    position:absolute;
+    right: 300px;
+    top: 50px;
+}
+
+@media (max-width: 992px) {
+.bottom-cloud{
+position: absolute;
+left: 15%;
+bottom: 10%;
+}
+.top-cloud{
+position: absolute;
+right: 15%;
+top: 10%;
+}
+.profile-image{
+    min-width: 15%;
+}
+}
+
+@media (max-width: 562px) {
+    .bottom-cloud{
+        position: relative;
+        max-width: 40%;
+        height: auto;
+        }
+        .top-cloud{
+        position: relative;
+        right: 15%;
+        top: 10%;
+        }
+        .profile-image{
+            min-width: 25%;
+        }
+}
