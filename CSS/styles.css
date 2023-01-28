@@ -172,4 +172,16 @@ top: 10%;
         .profile-image{
             min-width: 25%;
         }
+    .intro{
+            width:60%;
+        }
+        .skill-row-1{
+            width:60%;
+        }
+        .skill-row-2{
+            width:60%;
+        }
+        .skill-row-3{
+            width:60%;
+        }
 }
